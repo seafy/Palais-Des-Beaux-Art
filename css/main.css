@@ -116,13 +116,58 @@ footer {
 
 /* Smartphone */
 
+/* 1ere : section video  */
 
+.video {
+  background-image: url("../img/pba.jpg");
+  background-position: center center;
+  background-size: cover;
+}
 
+/* 2eme : section slider */
 
+.slider .carousel-item {
+ height: 500px;
+ width: 100%;
+ margin-top: 0;
+ margin-left: 0;
+ background-color: grey;
+ background-size: cover;
+ background-position: center center;
+}
 
+/* bar latéral up & down  */
+.lock-bar--up {
+     display: inline-block;
+     border-style: solid;
+     border-width: 16px;
+     width: 500px;
+     height: 28px;
+     margin-bottom: 60px;
+     border-color: #FFF;
+     border-bottom: none;
+     margin-bottom: 0;
+     } 
 
-
-
+.lock-bar--down {
+  display: inline-block;
+  border-style: solid;
+  border-width: 16px;
+  width: 500px;
+  height: 28px;
+  margin-bottom: 60px;
+  border-color: #FFF;
+  border-top: none;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+/* slider img1 */
+.alain {
+  width: 89%;
+  margin: 0 auto;
+  height: 340px;
+  position: relative;
+}
 
 
 
