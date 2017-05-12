@@ -102,12 +102,12 @@ textarea {
 /* Common Rules */
 
 header {
-  
+
 }
 
 
 footer {
-  
+
 }
 
 
@@ -332,7 +332,187 @@ footer {
 /* CSS SANA  */
 
 
-/*.vous-mb
+/*rules of the page visiter*/
+
+/*rules common*/
+.vous-pc
+{
+  display: none;
+}
+/*end rules common*/
+
+
+
+/*rules div class vous-mb*/
+.vous-mb
+{
+  background-color: darkgrey;
+}
+
+.barre
+{
+  background-color: grey;
+  width: 90%;
+  margin: 1em;
+  margin-top: 1em;
+  padding: 15px;
+  text-align: center;
+}
+
+.barre a
+{
+  color: black;
+  font-size: 12px;
+}
+
+.barre a:hover , .barre mark:hover
+{
+  text-decoration: none;
+  color: red;
+}
+
+.barre mark
+{
+  font-size: 17px;
+  background-color: grey;
+}
+/*end rules div class vous-mb*/
+
+
+
+
+/*rules section class parcours*/
+.parcours
+{
+  background-color: darkgrey;
+}
+
+.parcours h2
+{
+  font-size: 10px;
+  text-align: center;
+}
+/*end rules section class parcours*/
+
+
+
+
+/*rules div class grandbleu*/
+.grandbleu
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vignette , .vignette1 , .vignette2 , .vignette3 , .vignette4 , .vignette5 , .vignette6 , .vignette7 , .vignette8 , .vignette9 , .vignette10
+{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vignette a , .vignette1 a , .vignette2 a , .vignette3 a , .vignette4 a , .vignette5 a , .vignette6 a , .vignette7 a
+{
+  background-color: white;
+  width: 70%;
+  padding: 30px;
+  display: flex;
+  margin: 2em;
+  color: black;
+  font-size: 18px;
+}
+
+.vignette
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/le-grand-bleu/4639-1-fre-FR/Le-grand-bleu.jpg);
+}
+
+.vignette1
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/love-etc/4648-1-fre-FR/Love-etc.jpg);
+}
+
+.vignette2
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/a-table-!/4684-1-fre-FR/A-Table-!.jpg);
+}
+
+.vignette3
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/a-table-!/4684-1-fre-FR/A-Table-!.jpg);
+}
+
+.vignette4
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/histoires-de-betes/2990-1-fre-FR/Histoires-de-betes.jpg);
+}
+
+.vignette5
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/des-chiffres-et-des-lettres/4666-1-fre-FR/Des-chiffres-et-des-lettres.jpg);
+}
+
+.vignette6
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/des-chiffres-et-des-lettres/4666-1-fre-FR/Des-chiffres-et-des-lettres.jpg);
+}
+
+.vignette7
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/mini-maxi/4675-11-fre-FR/Mini-Maxi.jpg);
+}
+/*end rules div class grandbleu*/
+
+
+
+
+/*rules section class incontournables*/
+.incontournables h2
+{
+  text-align: center;
+  font-size: 20px;
+}
+
+.vignette8
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/4-oeuvres/4706-1-fre-FR/4-oeuvres.jpg);
+}
+
+.vignette9
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/8-oeuvres/4715-1-fre-FR/8-oeuvres.jpg);
+}
+
+.vignette10
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/12-oeuvres/4724-1-fre-FR/12-oeuvres.jpg);
+}
+
+.vignette8 a , .vignette9 a , .vignette10 a
+{
+  background-color: white;
+  width: 70%;
+  padding: 30px;
+  display: flex;
+  margin: 2em;
+  color: black;
+  font-size: 18px;
+}
+/*end rules section class incontournables*/
+
+
+
+
+
+
+
+/*rules div class vous-pc*/
+/*.vous-pc
 {
   background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/individuel/3965-7-fre-FR/Individuel.jpg);
   height: 500px;
@@ -344,14 +524,23 @@ footer {
   align-items: center;
 }
 
-.vous
+.vousetes
 {
   background-color: lightgrey;
   padding: 30px;
   display: flex;
   margin: 2em;
 }*/
+/*end rules div class vous-pc*/
 
+
+/*rules div class vous-pc*/
+
+/*end rules div class vous-pc*/
+
+
+
+/*end rules of the page visiter*/
 
 
 
