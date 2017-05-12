@@ -96,9 +96,25 @@ textarea {
    ========================================================================== */
 
 
+/*.vous-mb
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/individuel/3965-7-fre-FR/Individuel.jpg);
+  height: 500px;
+  width: 20%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
+.vous
+{
+  background-color: lightgrey;
+  padding: 30px;
+  display: flex;
+  margin: 2em;
+}*/
 
 
 
