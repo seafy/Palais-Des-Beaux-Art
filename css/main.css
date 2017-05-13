@@ -681,12 +681,26 @@ footer {
 {
   font-size: 25px;
 }
-
-.icotriangle , .parcours h2
-{
-  color: white;
-}
 /*end rules section class parcours*/
+
+
+
+
+
+
+/*rules div class granbleu*/
+.granbleu
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vignette , .vignette1 , .vignette2 , .vignette3 , .vignette4 , .vignette5 , .vignette6 , .vignette7
+{
+  width: 25%;
+  height: 450px;
+}
+/*end rules div class granbleu*/
 
 
 
