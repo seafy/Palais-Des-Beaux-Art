@@ -682,17 +682,27 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   width: 20%;
-  height: 550px;
+  height: 500px;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .title
 {
-  background-color: lightgrey;
-  width: 60%;
-  padding: 10%;
+  background-color: #f2f1f0;
+  width: 80%;
+  padding: 13%;
+  color: black;
+  font-size: 13px;
+  font-family: "atc_overlookregular";
+  text-align: center;
+}
+
+.title mark
+{
+  background-color: #f2f1f0;
+  font-size: 17px;
+  font-family: "atc_overlookregular";
 }
 /*end rules div class vous-pc*/
 
