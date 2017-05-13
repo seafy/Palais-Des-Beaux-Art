@@ -704,6 +704,48 @@ footer {
 
 
 
+/*rules section class incontournables*/
+.incontournables
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.incontournables h2
+{
+  width: 100%;
+}
+
+.vignette8 , .vignette9 , .vignette10
+{
+  width: 20%;
+}
+
+.vignette8 h3 , .vignette9 h3 , .vignette10 h3
+{
+  font-size: 40px;
+  margin-right: 0;
+}
+
+.vignette8 p , .vignette9 p , .vignette10 p
+{
+  font-size: 14px;
+  margin-right: 0;
+}
+
+.vignette8  , .vignette9 , .vignette10
+{
+  justify-content: flex-start;
+}
+/*end rules section class incontournables*/
+
+
+
+
+
+
+
 /*end rules of the page visiter*/
 
 }
