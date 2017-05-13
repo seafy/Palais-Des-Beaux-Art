@@ -647,7 +647,37 @@ footer {
 /*rules div class vous-pc*/
 .vous-pc
 {
+  width: 100%;
+  display: flex;
+}
+
+.vousetes
+{
   background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/individuel/3965-7-fre-FR/Individuel.jpg);
+}
+
+.vousetes1
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/groupe/4477-17-fre-FR/Groupe.jpg);
+}
+
+.vousetes2
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/famille/4570-6-fre-FR/Famille.jpg);
+}
+
+.vousetes3
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/etudiant/4406-6-fre-FR/Etudiant.jpg);
+}
+
+.vousetes4
+{
+  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/enseignant/4513-4-fre-FR/Enseignant.jpg);
+}
+
+.vousetes , .vousetes1 , .vousetes2 , .vousetes3 , .vousetes4
+{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -658,11 +688,11 @@ footer {
   align-items: center;
 }
 
-.vousetes a
+.title
 {
   background-color: lightgrey;
-  padding: 30px;
-  margin: 20%;
+  width: 60%;
+  padding: 10%;
 }
 /*end rules div class vous-pc*/
 
