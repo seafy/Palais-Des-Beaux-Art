@@ -449,14 +449,23 @@ footer {
 .parcours
 {
   background-color: #1D1D1E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .parcours h2
 {
   font-size: 14px;
-  text-align: center;
-  color: white;
   font-family: "bikobold";
+  width: 100%;
+  text-align: center;
+  margin-top: 4em;
+}
+
+.icotriangle , .parcours h2
+{
+  color: white;
 }
 /*end rules section class parcours*/
 
