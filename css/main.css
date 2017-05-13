@@ -162,7 +162,7 @@ footer {
      border-color: #FFF;
      border-bottom: none;
      margin-bottom: 0;
-     } 
+     }
 
 .lock-bar--down {
   display: inline-block;
@@ -406,12 +406,12 @@ footer {
 /*rules div class vous-mb*/
 .vous-mb
 {
-  background-color: darkgrey;
+  background-color: #1D1D1E;
 }
 
 .barre
 {
-  background-color: grey;
+  background-color:   #e8e8e8;
   width: 90%;
   margin: 1em;
   margin-top: 1em;
@@ -423,18 +423,20 @@ footer {
 {
   color: black;
   font-size: 12px;
+  font-family: "atc_overlookregular";
 }
 
 .barre a:hover , .barre mark:hover
 {
   text-decoration: none;
-  color: red;
+  color: #D8383F;
 }
 
 .barre mark
 {
-  font-size: 17px;
-  background-color: grey;
+  font-size: 16px;
+  background-color: #e8e8e8;
+  font-family: "loveloblack";
 }
 /*end rules div class vous-mb*/
 
@@ -476,7 +478,8 @@ footer {
   align-items: center;
 }
 
-.vignette a , .vignette1 a , .vignette2 a , .vignette3 a , .vignette4 a , .vignette5 a , .vignette6 a , .vignette7 a
+.vignette a , .vignette1 a , .vignette2 a , .vignette3 a , .vignette4 a , .vignette5 a , .vignette6 a , .vignette7 a ,
+.vignette8 a , .vignette9 a , .vignette10 a
 {
   background-color: white;
   width: 70%;
@@ -553,16 +556,7 @@ footer {
   background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/12-oeuvres/4724-1-fre-FR/12-oeuvres.jpg);
 }
 
-.vignette8 a , .vignette9 a , .vignette10 a
-{
-  background-color: white;
-  width: 70%;
-  padding: 30px;
-  display: flex;
-  margin: 2em;
-  color: black;
-  font-size: 18px;
-}
+
 /*end rules section class incontournables*/
 
 
