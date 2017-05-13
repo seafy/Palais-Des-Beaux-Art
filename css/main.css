@@ -627,40 +627,72 @@ footer {
 
 
 
+@media (min-width:768px)
+{
 
+/*rules of the page visiter*/
+
+/*rules common*/
+.vous-mb
+{
+  display: none;
+}
+
+.vous-pc
+{
+  display: block;
+}
+/*end rules common*/
 
 /*rules div class vous-pc*/
-/*.vous-pc
+.vous-pc
 {
   background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/individuel/3965-7-fre-FR/Individuel.jpg);
-  height: 500px;
-  width: 20%;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  width: 20%;
+  height: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.vousetes
+.vousetes a
 {
   background-color: lightgrey;
   padding: 30px;
-  display: flex;
-  margin: 2em;
-}*/
+  margin: 20%;
+}
 /*end rules div class vous-pc*/
 
 
-/*rules div class vous-pc*/
 
-/*end rules div class vous-pc*/
+
+
+/*rules section class parcours*/
+.parcours h2
+{
+  font-size: 20px;
+  width: 100%;
+}
+
+.icotriangle
+{
+  font-size: 25px;
+}
+
+.icotriangle , .parcours h2
+{
+  color: white;
+}
+/*end rules section class parcours*/
 
 
 
 /*end rules of the page visiter*/
 
-
+}
 
 
 
