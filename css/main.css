@@ -102,7 +102,7 @@ textarea {
 /* Common Rules */
 
 header {
-
+  position: fixed;
 }
 
 
@@ -126,20 +126,30 @@ footer {
 
 /* 1ere : section video  */
 
-.video {
+#video {
   width: 100%;
   height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url("../img/pba.jpg");
   background-position: center center;
-  background-size: cover;
-}
+  /* background-size: cover; */
+  }
 
-.video article {
-  display: flex:
+#video article {
+  width: 500px;
+  height: 339px;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: green;
+  border: solid;
+  border: ;
+  border-color: white;
 }
+
 
 /* 2eme : section slider */
 
@@ -153,7 +163,6 @@ footer {
  width: 100%;
  margin-top: 0;
  margin-left: 0;
- background-color: grey;
  background-size: cover;
  background-position: center center;
 }
@@ -214,12 +223,103 @@ footer {
   flex-direction: column;
 }
 
+/* section Galery Index */
+
+.galery {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: stretch;
+}
+
+.galery div {
+  width: 25%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.galery article {
+  width: 225px;
+  height: 225px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 
+/* image */
+.bosch {
+  background-image: url(../img/bosch.jpg);
+}
 
+.madone {
+  background-image: url(../img/madone.jpg);
+}
 
+.miroir {
+ background-image: url(../img/miroir.jpg);
+}
 
+.perspective {
+  background-image: url(../img/perspective.jpg);
+}
 
+/* Section Bloc Button */
+
+.bloc-button {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* les articles */
+.bloc-button article {
+  width: 550px;
+  height: 91px;
+  color: #FFF;
+  border-color: #FFF;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+/* Article afficher plus oeuvres */
+.bloc-button .plus-oeuvre {
+  margin-top: 10%;
+  border: solid;
+  border: 3px 3px;
+  border-color: white;
+}
+
+/* Le hover */
+.bloc-button .plus-oeuvre:hover {
+  color: #D8383F;
+  border-color: #D8383F;
+}
+
+/* article instagram */
+.bloc-button .insta {
+ margin-top: 10%;
+}
+
+/* section download app */
+
+.download-app {
+  background-color: #D8383F;
+  margin-top: 10%;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
+  justify-content: center;
+
+}
 
 
 /* Tablet */
@@ -234,53 +334,7 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Desktop */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
