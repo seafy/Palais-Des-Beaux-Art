@@ -689,7 +689,8 @@ footer {
 
 .title
 {
-  background-color: #f2f1f0;
+  background-color: white;
+  opacity: 0.9;
   width: 80%;
   padding: 13%;
   color: black;
@@ -700,7 +701,8 @@ footer {
 
 .title mark
 {
-  background-color: #f2f1f0;
+  background-color: white;
+  opacity: 0.9;
   font-size: 17px;
   font-family: "atc_overlookregular";
 }
