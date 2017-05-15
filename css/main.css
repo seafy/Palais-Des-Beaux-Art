@@ -460,10 +460,24 @@ footer {
   font-family: "bikobold";
   width: 100%;
   text-align: center;
-  margin-top: 4em;
 }
 
 .icotriangle , .parcours h2
+{
+  color: white;
+}
+
+.flaticon-uniE922
+{
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.parcours .flaticon-uniE922
 {
   color: white;
 }
@@ -727,6 +741,11 @@ footer {
 .icotriangle
 {
   font-size: 25px;
+}
+
+.parcours .flaticon-uniE922
+{
+  font-size: 38px;
 }
 /*end rules section class parcours*/
 
