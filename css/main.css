@@ -651,6 +651,11 @@ footer {
   display: flex;
 }
 
+.vous-pc a:hover
+{
+  text-decoration: none;
+}
+
 .vousetes
 {
   background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/individuel/3965-7-fre-FR/Individuel.jpg);
@@ -685,6 +690,7 @@ footer {
   height: 500px;
   display: flex;
   align-items: center;
+  padding: 2em;
 }
 
 .title
@@ -692,20 +698,19 @@ footer {
   background-color: white;
   opacity: 0.9;
   width: 80%;
-  padding: 13%;
+  padding: 18%;
   color: black;
   font-size: 13px;
   font-family: "atc_overlookregular";
-  text-align: center;
 }
 
-.title mark
+
+
+.title:hover
 {
-  background-color: white;
-  opacity: 0.9;
-  font-size: 17px;
-  font-family: "atc_overlookregular";
+  color: #D8383F;
 }
+
 /*end rules div class vous-pc*/
 
 
