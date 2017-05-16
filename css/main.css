@@ -599,7 +599,26 @@ footer
 footer
 {
   background-color: #1D1D1E;
-  font-size: 10px;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 2em;
+}
+
+footer .flaticon-uniE907 , footer .flaticon-uniE91E , footer .flaticon-uniE921 , footer .flaticon-uniE927 , footer .flaticon-uniE92B
+{
+  font-size: 16px;
+  color: white;
+}
+
+.social , .mention
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.social i
+{
+  color: white;
 }
 /*end rules footer*/
 
