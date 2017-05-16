@@ -302,7 +302,7 @@ footer
 .bloc-button .insta
 {
 	margin-top: 10%;
- 
+
 }
 
 /* section download app */
@@ -549,6 +549,7 @@ footer
 	text-align: right;
 	margin-right: 35px;
 	width: 100%;
+  color: black;
 }
 
 .vignette8 a:hover , .vignette9 a:hover , .vignette10 a:hover
@@ -558,6 +559,51 @@ footer
 }
 
 /*end rules section class incontournables*/
+
+
+/*rules div class telecharge*/
+.telecharge
+{
+  background-color: #D8383F;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+}
+
+.telecharge i
+{
+  color: white;
+  font-size: 60px;
+}
+
+.laisse
+{
+  font-size: 14px;
+  margin-top: 1em;
+}
+
+.telec
+{
+  font-size: 14px;
+  margin-top: 1em;
+  border: solid white 2px;
+  padding: 2px;
+}
+
+/*end rules div class telecharge*/
+
+
+/*rules footer*/
+footer
+{
+  background-color: #1D1D1E;
+  font-size: 10px;
+}
+/*end rules footer*/
+
+
 @media (min-width:768px)
 {
 	/*rules of the page visiter*/
@@ -639,6 +685,9 @@ footer
 	}
 
 	/*end rules div class vous-pc*/
+
+
+
 	/*rules section class parcours*/
 	.parcours h2
 	{
@@ -671,6 +720,8 @@ footer
 	}
 
 	/*end rules div class granbleu*/
+
+
 	/*rules section class incontournables*/
 	.incontournables
 	{
@@ -705,8 +756,11 @@ footer
 	{
 		justify-content: flex-start;
 	}
-
 	/*end rules section class incontournables*/
+
+
+
+
 	/*end rules of the page visiter*/
 }
 
@@ -838,4 +892,3 @@ footer
 		page-break-after: avoid;
 	}
 }
-
