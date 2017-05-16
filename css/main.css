@@ -1,1077 +1,834 @@
+
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+/* * What follows is the result of much research on cross-browser styling. * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal, * Kroc Camen, and the H5BP dev community and team. */
+/* ==========================================================================Base styles: opinionated defaults========================================================================== */
+html
+{
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+/* * Remove text-shadow in selection highlight: * https://twitter.com/miketaylr/status/12228805301 * * These selection rule sets have to be separate. * Customize the background color to match your design. */
+::-moz-selection
+{
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+::selection
+{
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+/* * A better looking default horizontal rule */
+hr
+{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
+/* * Remove the gap between audio, canvas, iframes, * images, videos and the bottom of their containers: * https://github.com/h5bp/html5-boilerplate/issues/440 */
+audio,canvas,iframe,img,svg,video
+{
+	vertical-align: middle;
 }
 
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+/* * Remove default fieldset styles. */
+fieldset
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
+/* * Allow only vertical resizing of textareas. */
+textarea
+{
+	resize: vertical;
 }
 
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+/* ==========================================================================Browser Upgrade Prompt========================================================================== */
+.browserupgrade
+{
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
+/* ==========================================================================Author's custom styles========================================================================== */
 /* VINCENT CSS 200 LINES MAX*/
-
 /* Common Rules */
-
-header {
-  position: fixed;
+header
+{
+	position: fixed;
 }
 
-
-footer {
-
+footer
+{
 }
 
-.body-index {
-  background-color: #1D1D1E;
-  font-family: "open_sansregular";
-  font-size: 16px;
-  font-size: 1.6rem;
-}
-.body-index h1 h2 h3 a,p,span {
-  color: white;
+.body-index
+{
+	background-color: #1D1D1E;
+	font-family: "open_sansregular";
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 
-
+.body-index h1 h2 h3 a,p,span
+{
+	color: white;
+}
 
 /* Smartphone */
-
 /* 1ere : section video  */
-
-#video {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("../img/pba.jpg");
-  background-position: center center;
-  /* background-size: cover; */
-  }
-
-#video article {
-  width: 500px;
-  height: 339px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: green;
-  border: solid;
-  border: ;
-  border-color: white;
+#video
+{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../img/pba.jpg");
+	background-position: center center;
+	/* background-size: cover;
+	*/
 }
 
+/* les articles premiere section */
+#video article
+{
+	width: 500px;
+	height: 339px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* petit article collection */
+#collec
+{
+	margin-right: 10%;
+}
+
+/* border setting */
+.border
+{
+	border-color: white;
+	border-style: solid none solid;
+}
 
 /* 2eme : section slider */
-
-.slider {
-  width: 100%;
-  padding: auto;
+.slider
+{
+	width: 100%;
 }
 
-.slider .carousel-item {
- height: 500px;
- width: 100%;
- margin-top: 0;
- margin-left: 0;
- background-size: cover;
- background-position: center center;
+.slider .carousel-item
+{
+	height: 500px;
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	background-size: cover;
+	background-position: center center;
 }
 
-
-.slider .sarousel-item .container-fluid article{
-  width: 1280px;
-  margin: 0 auto;
-  display: block;
-  position: absolute;
-  z-index: 1;
-  top: 85px;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.slider .sarousel-item .container-fluid article
+{
+	width: 1280px;
+	margin: 0 auto;
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top: 85px;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 /* bar latéral up & down  */
-.lock-bar--up {
-     display: inline-block;
-     border-style: solid;
-     border-width: 16px;
-     width: 500px;
-     height: 28px;
-     margin-bottom: 60px;
-     border-color: #FFF;
-     border-bottom: none;
-     margin-bottom: 0;
-     }
-
-.lock-bar--down {
-  display: inline-block;
-  border-style: solid;
-  border-width: 16px;
-  width: 500px;
-  height: 28px;
-  margin-bottom: 60px;
-  border-color: #FFF;
-  border-top: none;
-  margin-top: 25px;
-  margin-bottom: 0;
+.lock-bar--up
+{
+	display: inline-block;
+	border-style: solid;
+	border-width: 16px;
+	width: 500px;
+	height: 28px;
+	margin-bottom: 60px;
+	border-color: #FFF;
+	border-bottom: none;
+	margin-bottom: 0;
 }
+
+.lock-bar--down
+{
+	display: inline-block;
+	border-style: solid;
+	border-width: 16px;
+	width: 500px;
+	height: 28px;
+	margin-bottom: 60px;
+	border-color: #FFF;
+	border-top: none;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+
 /* slider img1 */
-.alain {
-  width: 100%;
-  margin: 0 auto;
-  height: 340px;
-  position: relative;
+.alain
+{
+	width: 100%;
+	margin: 0 auto;
+	height: 340px;
+	position: relative;
 }
 
 /* 4oeuvre clé */
-.oeuvre {
-  width: 100%;
-  height: 150px; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.oeuvre
+{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 /* section Galery Index */
-
-.galery {
-  width: 100%;
-  height: 500px;
-  display: flex;
-  align-items: stretch;
+.galery
+{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	align-items: stretch;
 }
 
-.galery div {
-  width: 25%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.galery div
+{
+	width: 25%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.galery article {
-  width: 225px;
-  height: 225px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+.galery article
+{
+	width: 225px;
+	height: 225px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
-
 
 /* image */
-.bosch {
-  background-image: url(../img/bosch.jpg);
+.bosch
+{
+	background-image: url(../img/bosch.jpg);
 }
 
-.madone {
-  background-image: url(../img/madone.jpg);
+.madone
+{
+	background-image: url(../img/madone.jpg);
 }
 
-.miroir {
- background-image: url(../img/miroir.jpg);
+.miroir
+{
+	background-image: url(../img/miroir.jpg);
 }
 
-.perspective {
-  background-image: url(../img/perspective.jpg);
+.perspective
+{
+	background-image: url(../img/perspective.jpg);
 }
 
 /* Section Bloc Button */
-
-.bloc-button {
-  width: 100%;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.bloc-button
+{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 /* les articles */
-.bloc-button article {
-  width: 550px;
-  height: 91px;
-  color: #FFF;
-  border-color: #FFF;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+.bloc-button article
+{
+	width: 550px;
+	height: 91px;
+	color: #FFF;
+	border-color: #FFF;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
+
 /* Article afficher plus oeuvres */
-.bloc-button .plus-oeuvre {
-  margin-top: 10%;
-  border: solid;
-  border: 3px 3px;
-  border-color: white;
+.bloc-button .plus-oeuvre
+{
+	margin-top: 10%;
+	border: solid;
+	border: 3px 3px;
+	border-color: white;
 }
 
 /* Le hover */
-.bloc-button .plus-oeuvre:hover {
-  color: #D8383F;
-  border-color: #D8383F;
+.bloc-button .plus-oeuvre:hover
+{
+	color: #D8383F;
+	border-color: #D8383F;
 }
 
 /* article instagram */
-.bloc-button .insta {
- margin-top: 10%;
+.bloc-button .insta
+{
+	margin-top: 10%;
+ 
 }
 
 /* section download app */
-
-.download-app {
-  background-color: #D8383F;
-  margin-top: 10%;
-  width: 100%;
-  height: 150px;
-  display: flex;
-  flex-flow: column wrap;
-  align-self: center;
-  justify-content: center;
-
+.download-app
+{
+	background-color: #D8383F;
+	margin-top: 10%;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-flow: column wrap;
+	align-self: center;
+	justify-content: center;
 }
 
-
 /* Tablet */
-
-
-
-
-
-
-
-
-
-
-
 /* Desktop */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* END CSS VINCENT MAX 200 LINES */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS SANA  */
-
-
 /*rules of the page visiter*/
-
 /*rules common*/
 .vous-pc
 {
-  display: none;
+	display: none;
 }
+
 /*end rules common*/
-
-
-
 /*rules div class vous-mb*/
 .vous-mb
 {
-  background-color: #1D1D1E;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+	background-color: #1D1D1E;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .barre
 {
-  background-color:   #e8e8e8;
-  width: 90%;
-  margin: 1em;
-  padding: 15px;
-  text-align: center;
+	background-color:#e8e8e8;
+	width: 90%;
+	margin: 1em;
+	padding: 15px;
+	text-align: center;
 }
 
 .barre a
 {
-  color: black;
-  font-size: 12px;
-  font-family: "atc_overlookregular";
+	color: black;
+	font-size: 12px;
+	font-family: "atc_overlookregular";
 }
 
 .barre a:hover , .barre mark:hover
 {
-  text-decoration: none;
-  color: #D8383F;
+	text-decoration: none;
+	color: #D8383F;
 }
 
 .barre mark
 {
-  font-size: 16px;
-  background-color: #e8e8e8;
-  font-family: "loveloblack";
+	font-size: 16px;
+	background-color: #e8e8e8;
+	font-family: "loveloblack";
 }
+
 /*end rules div class vous-mb*/
-
-
-
-
 /*rules section class parcours*/
 .parcours
 {
-  background-color: #1D1D1E;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+	background-color: #1D1D1E;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .parcours h2
 {
-  font-size: 14px;
-  font-family: "bikobold";
-  width: 100%;
-  text-align: center;
+	font-size: 14px;
+	font-family: "bikobold";
+	width: 100%;
+	text-align: center;
 }
 
 .icotriangle , .parcours h2
 {
-  color: white;
+	color: white;
 }
 
 .flaticon-uniE922
 {
-  font-size: 14px;
-  width: 100%;
-  text-align: center;
-  margin-top: 2em;
-  margin-bottom: 10px;
-  color: white;
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 10px;
+	color: white;
 }
 
 .parcours .flaticon-uniE922
 {
-  color: white;
+	color: white;
 }
+
 /*end rules section class parcours*/
-
-
-
-
 /*rules div class grandbleu*/
 .vignette , .vignette1 , .vignette2 , .vignette3 , .vignette4 , .vignette5 , .vignette6 , .vignette7 , .vignette8 , .vignette9 , .vignette10
 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .vignette h3 , .vignette1 h3 , .vignette2 h3 , .vignette3 h3 , .vignette4 h3 , .vignette5 h3 , .vignette6 h3 , .vignette7 h3
 {
-  font-size: 22px;
-  font-family: "atc_overlookregular";
-  color: black;
-  width: 100%;
+	font-size: 22px;
+	font-family: "atc_overlookregular";
+	color: black;
+	width: 100%;
 }
 
 .vignette p , .vignette1 p , .vignette2 p , .vignette3 p , .vignette4 p , .vignette5 p , .vignette6 p , .vignette7 p
 {
-  width: 100%;
-  color: #868687;
-  font-size: 18px;
+	width: 100%;
+	color: #868687;
+	font-size: 18px;
 }
 
 .vignette mark , .vignette1 mark , .vignette2 mark , .vignette3 mark , .vignette4 mark , .vignette5 mark , .vignette6 mark , .vignette7 mark
 {
-  background-color: white;
-  font-size: 12px;
-  color: #868687;
+	background-color: white;
+	font-size: 12px;
+	color: #868687;
 }
 
-.vignette a , .vignette1 a , .vignette2 a , .vignette3 a , .vignette4 a , .vignette5 a , .vignette6 a , .vignette7 a ,
-.vignette8 a , .vignette9 a , .vignette10 a
+.vignette a , .vignette1 a , .vignette2 a , .vignette3 a , .vignette4 a , .vignette5 a , .vignette6 a , .vignette7 a ,.vignette8 a , .vignette9 a , .vignette10 a
 {
-  background-color: white;
-  width: 70%;
-  padding: 14px;
-  display: flex;
-  color: black;
-  font-size: 18px;
-  display: flex;
-  flex-wrap: wrap;
+	background-color: white;
+	width: 70%;
+	padding: 14px;
+	display: flex;
+	color: black;
+	font-size: 18px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .vignette a:hover , .vignette1 a:hover , .vignette2 a:hover , .vignette3 a:hover , .vignette4 a:hover , .vignette5 a:hover , .vignette6 a:hover , .vignette7 a:hover
 {
-  text-decoration: none;
-  color: #D8383F;
+	text-decoration: none;
+	color: #D8383F;
 }
 
 .vignette
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/le-grand-bleu/4639-1-fre-FR/Le-grand-bleu.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/le-grand-bleu/4639-1-fre-FR/Le-grand-bleu.jpg);
 }
 
 .vignette1
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/love-etc/4648-1-fre-FR/Love-etc.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/love-etc/4648-1-fre-FR/Love-etc.jpg);
 }
 
 .vignette2
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/a-table-!/4684-1-fre-FR/A-Table-!.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/a-table-!/4684-1-fre-FR/A-Table-!.jpg);
 }
 
 .vignette3
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/a-table-!/4684-1-fre-FR/A-Table-!.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/a-table-!/4684-1-fre-FR/A-Table-!.jpg);
 }
 
 .vignette4
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/histoires-de-betes/2990-1-fre-FR/Histoires-de-betes.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/histoires-de-betes/2990-1-fre-FR/Histoires-de-betes.jpg);
 }
 
 .vignette5
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/des-chiffres-et-des-lettres/4666-1-fre-FR/Des-chiffres-et-des-lettres.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/des-chiffres-et-des-lettres/4666-1-fre-FR/Des-chiffres-et-des-lettres.jpg);
 }
 
 .vignette6
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/des-chiffres-et-des-lettres/4666-1-fre-FR/Des-chiffres-et-des-lettres.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/des-chiffres-et-des-lettres/4666-1-fre-FR/Des-chiffres-et-des-lettres.jpg);
 }
 
 .vignette7
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/mini-maxi/4675-11-fre-FR/Mini-Maxi.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/mini-maxi/4675-11-fre-FR/Mini-Maxi.jpg);
 }
 
 /*end rules div class grandbleu*/
-
-
-
-
 /*rules section class incontournables*/
 .incontournables h2
 {
-  text-align: center;
-  font-size: 20px;
-  height: 60px;
-  margin-top: 30px;
-  font-family: "loveloblack";
-  color: black;
+	text-align: center;
+	font-size: 20px;
+	height: 60px;
+	margin-top: 30px;
+	font-family: "loveloblack";
+	color: black;
 }
 
 .vignette8
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/4-oeuvres/4706-1-fre-FR/4-oeuvres.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/4-oeuvres/4706-1-fre-FR/4-oeuvres.jpg);
 }
 
 .vignette9
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/8-oeuvres/4715-1-fre-FR/8-oeuvres.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/8-oeuvres/4715-1-fre-FR/8-oeuvres.jpg);
 }
 
 .vignette10
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/12-oeuvres/4724-1-fre-FR/12-oeuvres.jpg);
+	background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/parcours-de-visite/12-oeuvres/4724-1-fre-FR/12-oeuvres.jpg);
 }
 
 .vignette8 i , .vignette9 i , .vignette10 i
 {
-  width: 100%;
+	width: 100%;
 }
 
 .vignette8 h3 , .vignette9 h3 , .vignette10 h3
 {
-  text-align: right;
-  margin-right: 35px;
-  width: 100%;
+	text-align: right;
+	margin-right: 35px;
+	width: 100%;
 }
 
 .vignette8 p , .vignette9 p , .vignette10 p
 {
-  font-size: 11px;
-  text-align: right;
-  margin-right: 35px;
-  width: 100%;
+	font-size: 11px;
+	text-align: right;
+	margin-right: 35px;
+	width: 100%;
 }
 
 .vignette8 a:hover , .vignette9 a:hover , .vignette10 a:hover
 {
-  text-decoration: none;
-  color: #D8383F;
+	text-decoration: none;
+	color: #D8383F;
 }
+
 /*end rules section class incontournables*/
-
-
-
-
-
 @media (min-width:768px)
 {
+	/*rules of the page visiter*/
+	/*rules common*/
+	.vous-mb
+	{
+		display: none;
+	}
 
-/*rules of the page visiter*/
+	.vous-pc
+	{
+		display: block;
+	}
 
-/*rules common*/
-.vous-mb
+	/*end rules common*/
+	/*rules div class vous-pc*/
+	.vous-pc
+	{
+		width: 100%;
+		display: flex;
+	}
+
+	.vous-pc a:hover
+	{
+		text-decoration: none;
+	}
+
+	.vousetes
+	{
+		background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/individuel/3965-7-fre-FR/Individuel.jpg);
+	}
+
+	.vousetes1
+	{
+		background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/groupe/4477-17-fre-FR/Groupe.jpg);
+	}
+
+	.vousetes2
+	{
+		background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/famille/4570-6-fre-FR/Famille.jpg);
+	}
+
+	.vousetes3
+	{
+		background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/etudiant/4406-6-fre-FR/Etudiant.jpg);
+	}
+
+	.vousetes4
+	{
+		background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/enseignant/4513-4-fre-FR/Enseignant.jpg);
+	}
+
+	.vousetes , .vousetes1 , .vousetes2 , .vousetes3 , .vousetes4
+	{
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 20%;
+		height: 500px;
+		display: flex;
+		align-items: center;
+		padding: 2em;
+	}
+
+	.title
+	{
+		background-color: white;
+		opacity: 0.9;
+		width: 80%;
+		padding: 18%;
+		color: black;
+		font-size: 13px;
+		font-family: "atc_overlookregular";
+	}
+
+	.title:hover
+	{
+		color: #D8383F;
+	}
+
+	/*end rules div class vous-pc*/
+	/*rules section class parcours*/
+	.parcours h2
+	{
+		font-size: 20px;
+		width: 100%;
+	}
+
+	.icotriangle
+	{
+		font-size: 25px;
+	}
+
+	.parcours .flaticon-uniE922
+	{
+		font-size: 38px;
+	}
+
+	/*end rules section class parcours*/
+	/*rules div class granbleu*/
+	.granbleu
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.vignette , .vignette1 , .vignette2 , .vignette3 , .vignette4 , .vignette5 , .vignette6 , .vignette7
+	{
+		width: 25%;
+		height: 450px;
+	}
+
+	/*end rules div class granbleu*/
+	/*rules section class incontournables*/
+	.incontournables
+	{
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+	.incontournables h2
+	{
+		width: 100%;
+	}
+
+	.vignette8 , .vignette9 , .vignette10
+	{
+		width: 20%;
+	}
+
+	.vignette8 h3 , .vignette9 h3 , .vignette10 h3
+	{
+		font-size: 40px;
+		margin-right: 0;
+	}
+
+	.vignette8 p , .vignette9 p , .vignette10 p
+	{
+		font-size: 14px;
+		margin-right: 0;
+	}
+
+	.vignette8  , .vignette9 , .vignette10
+	{
+		justify-content: flex-start;
+	}
+
+	/*end rules section class incontournables*/
+	/*end rules of the page visiter*/
+}
+
+/* ==========================================================================Helper classes========================================================================== */
+/* * Hide visually and from screen readers */
+.hidden
 {
-  display: none;
+	display: none !important;
 }
 
-.vous-pc
+/* * Hide only visually, but have it available for screen readers: * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+.visuallyhidden
 {
-  display: block;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
-/*end rules common*/
 
-/*rules div class vous-pc*/
-.vous-pc
+/* * Extends the .visuallyhidden class to allow the element * to be focusable when navigated to via the keyboard: * https://www.drupal.org/node/897638 */
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus
 {
-  width: 100%;
-  display: flex;
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
 }
 
-.vous-pc a:hover
+/* * Hide visually and from screen readers, but maintain layout */
+.invisible
 {
-  text-decoration: none;
+	visibility: hidden;
 }
 
-.vousetes
+/* * Clearfix: contain floats * * For modern browsers * 1. The space content is one way to avoid an Opera bug when the *`contenteditable` attribute is included anywhere else in the document. *Otherwise it causes space to appear at the top and bottom of elements *that receive the `clearfix` class. * 2. The use of `table` rather than `block` is only necessary if using *`:before` to contain the top-margins of child elements. */
+.clearfix:before,.clearfix:after
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/individuel/3965-7-fre-FR/Individuel.jpg);
+	content: " ";
+	/* 1 */
+	display: table;
+	/* 2 */
 }
 
-.vousetes1
+.clearfix:after
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/groupe/4477-17-fre-FR/Groupe.jpg);
+	clear: both;
 }
 
-.vousetes2
+/* ==========================================================================EXAMPLE Media Queries for Responsive Design.These examples override the primary ('mobile first') styles.Modify as content requires.========================================================================== */
+@media only screen and (min-width: 35em)
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/famille/4570-6-fre-FR/Famille.jpg);
+	/* Style adjustments for viewports that meet the condition */
 }
 
-.vousetes3
+@media print,(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 1.25dppx),(min-resolution: 120dpi)
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/etudiant/4406-6-fre-FR/Etudiant.jpg);
+	/* Style adjustments for high resolution devices */
 }
 
-.vousetes4
+/* ==========================================================================Print styles.Inlined to avoid the additional HTTP request:http://www.phpied.com/delay-loading-your-print-css/========================================================================== */
+@media print
 {
-  background-image: url(http://www.pba-lille.fr/var/www/storage/images/palais-des-beaux-arts-de-lille/visiter/enseignant/4513-4-fre-FR/Enseignant.jpg);
+	*,*:before,*:after,*:first-letter,*:first-line
+	{
+		background: transparent !important;
+		color: #000 !important;
+		/* Black prints faster:http://www.sanbeiji.com/archives/953 */
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	a,a:visited
+	{
+		text-decoration: underline;
+	}
+
+	a[href]:after
+	{
+		content: " (" attr(href) ")";
+	}
+
+	abbr[title]:after
+	{
+		content: " (" attr(title) ")";
+	}
+
+	/** Don't show links that are fragment identifiers,* or use the `javascript:` pseudo protocol*/
+	a[href^="#"]:after,a[href^="javascript:"]:after
+	{
+		content: "";
+	}
+
+	pre,blockquote
+	{
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+
+	/** Printing Tables:* http://css-discuss.incutio.com/wiki/Printing_Tables*/
+	thead
+	{
+		display: table-header-group;
+	}
+
+	tr,img
+	{
+		page-break-inside: avoid;
+	}
+
+	img
+	{
+		max-width: 100% !important;
+	}
+
+	p,h2,h3
+	{
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2,h3
+	{
+		page-break-after: avoid;
+	}
 }
 
-.vousetes , .vousetes1 , .vousetes2 , .vousetes3 , .vousetes4
-{
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 20%;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  padding: 2em;
-}
-
-.title
-{
-  background-color: white;
-  opacity: 0.9;
-  width: 80%;
-  padding: 18%;
-  color: black;
-  font-size: 13px;
-  font-family: "atc_overlookregular";
-}
-
-
-
-.title:hover
-{
-  color: #D8383F;
-}
-
-/*end rules div class vous-pc*/
-
-
-
-
-
-/*rules section class parcours*/
-.parcours h2
-{
-  font-size: 20px;
-  width: 100%;
-}
-
-.icotriangle
-{
-  font-size: 25px;
-}
-
-.parcours .flaticon-uniE922
-{
-  font-size: 38px;
-}
-/*end rules section class parcours*/
-
-
-
-
-
-
-/*rules div class granbleu*/
-.granbleu
-{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.vignette , .vignette1 , .vignette2 , .vignette3 , .vignette4 , .vignette5 , .vignette6 , .vignette7
-{
-  width: 25%;
-  height: 450px;
-}
-/*end rules div class granbleu*/
-
-
-
-/*rules section class incontournables*/
-.incontournables
-{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.incontournables h2
-{
-  width: 100%;
-}
-
-.vignette8 , .vignette9 , .vignette10
-{
-  width: 20%;
-}
-
-.vignette8 h3 , .vignette9 h3 , .vignette10 h3
-{
-  font-size: 40px;
-  margin-right: 0;
-}
-
-.vignette8 p , .vignette9 p , .vignette10 p
-{
-  font-size: 14px;
-  margin-right: 0;
-}
-
-.vignette8  , .vignette9 , .vignette10
-{
-  justify-content: flex-start;
-}
-/*end rules section class incontournables*/
-
-
-
-
-
-
-
-/*end rules of the page visiter*/
-
-}
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden {
-    display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
-
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   http://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
